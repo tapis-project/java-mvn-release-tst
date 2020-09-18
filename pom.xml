@@ -20,9 +20,14 @@
     <name>TACC Tapis Systems Parent POM</name>
     <description>Parent POM file for TAPIS Systems service</description>
 
+    <properties>
+      <project.scm.id>git</project.scm.id>
+    </properties>
+
     <scm>
-        <connection>scm:git:ssh://github.com/tapis-project/java-mvn-release-tst.git</connection>
-        <url>https://github.com/tapis-project/java-mvn-release-tst</url>
+      <connection>scm:git:https://github.com/tapis-project/java-mvn-release-tst.git</connection>
+      <developerConnection>scm:git:ssh://github.com/tapis-project/java-mvn-release-tst.git</developerConnection>
+      <url>https://github.com/tapis-project/java-mvn-release-tst</url>
       <tag>java-mvn-release-tst-0.0.2</tag>
   </scm>
 
