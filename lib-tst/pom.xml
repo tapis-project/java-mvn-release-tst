@@ -1,0 +1,39 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <parent>
+    <groupId>edu.utexas.tacc.tapis</groupId>
+    <artifactId>java-mvn-release-tst</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  
+  <artifactId>lib-tst</artifactId>
+  
+  <name>Java maven release test lib</name>
+  <description>Java mevan release test lib subdir</description>
+
+  <properties>
+    <!-- If necessary set a specific version of the shared code. Parent pom file from tapis-bom has a range. -->
+    <!-- <tapis-shared-java.version>1.11.2-SNAPSHOT</tapis-shared-java.version> -->
+  </properties>
+ 
+  <dependencies>
+  </dependencies>
+
+  <build>
+    <sourceDirectory>src/main/java</sourceDirectory>
+
+    <plugins>
+      <!-- Capture the git commit hash and branch identifiers. -->
+      <!-- See parent pom for configuration details. -->
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>buildnumber-maven-plugin</artifactId>
+      </plugin>
+    </plugins>
+
+  </build>
+
+</project>
