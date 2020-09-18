@@ -21,7 +21,7 @@
     <description>Parent POM file for TAPIS Systems service</description>
 
     <scm>
-        <connection>scm:git:https://github.com/tapis-project/java-mvn-release-tst.git</connection>
+        <connection>scm:git:ssh://github.com/tapis-project/java-mvn-release-tst.git</connection>
         <url>https://github.com/tapis-project/java-mvn-release-tst</url>
       <tag>java-mvn-release-tst-0.0.2</tag>
   </scm>
