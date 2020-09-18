@@ -23,7 +23,7 @@
     <scm>
         <connection>scm:git:https://github.com/tapis-project/java-mvn-release-tst.git</connection>
         <url>https://github.com/tapis-project/java-mvn-release-tst</url>
-      <tag>HEAD</tag>
+      <tag>java-mvn-release-tst-0.0.2</tag>
   </scm>
 
   <build>
