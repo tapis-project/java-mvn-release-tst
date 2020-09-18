@@ -14,7 +14,7 @@
     </parent>
 
     <artifactId>java-mvn-release-tst</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>TACC Tapis Systems Parent POM</name>
@@ -23,7 +23,7 @@
     <scm>
         <connection>scm:git:https://github.com/tapis-project/java-mvn-release-tst.git</connection>
         <url>https://github.com/tapis-project/java-mvn-release-tst</url>
-      <tag>java-mvn-release-tst-0.0.1</tag>
+      <tag>HEAD</tag>
   </scm>
 
   <build>
